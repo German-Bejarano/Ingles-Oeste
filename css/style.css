@@ -290,12 +290,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 30em;
-}
-@media only screen and (min-width: 300px) {
-  .herooo {
-    height: 36em;
-  }
+  height: 34em;
 }
 .herooo .caption {
   display: flex;
@@ -309,29 +304,11 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   font-size: 1.1em;
-  margin-top: 2.8em;
-}
-@media only screen and (min-width: 300px) {
-  .herooo .caption {
-    margin-top: -2em;
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 370px) {
-  .herooo .caption {
-    margin-top: 4em;
-  }
-}
-@media only screen and (min-width: 500px) {
-  .herooo .caption {
-    margin-top: 7em;
-    padding: 0em;
-  }
+  margin-top: 3em;
 }
 @media only screen and (min-width: 700px) {
   .herooo .caption {
     margin-top: 5em;
-    max-width: 40em;
   }
 }
 .herooo .caption h3 {
@@ -350,63 +327,53 @@ html {
 @media only screen and (min-width: 300px) {
   .herooo .caption h3 {
     font-size: 0.9em;
-    padding: 0.8em 0.4em;
+    padding: 0.3em 0.8em;
+    max-width: 28em;
   }
 }
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 350px) {
   .herooo .caption h3 {
-    font-size: 1.1em;
-    padding: 0.3em 0.8em;
-    max-width: 25em;
+    font-size: 1em;
   }
 }
 @media only screen and (min-width: 500px) {
   .herooo .caption h3 {
-    font-size: 1.4em;
-    max-width: 23em;
-    margin-top: 0;
+    font-size: 1em;
   }
 }
-@media only screen and (min-width: 642px) {
+@media only screen and (min-width: 784px) {
   .herooo .caption h3 {
-    font-size: 1.3em;
-    max-width: 27em;
-    margin-top: 0;
-  }
-}
-@media only screen and (min-width: 700px) {
-  .herooo .caption h3 {
-    font-size: 1.4em;
-    font-weight: 300;
-    max-width: 28em;
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 30em;
     padding: 0.7em;
   }
 }
 .herooo .caption .aprende {
   position: relative;
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.4em;
   top: -9em;
   transition: top 1s;
 }
 @media only screen and (min-width: 300px) {
   .herooo .caption .aprende {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 350px) {
   .herooo .caption .aprende {
-    font-size: 1.9em;
+    font-size: 1.6em;
   }
 }
 @media only screen and (min-width: 500px) {
   .herooo .caption .aprende {
-    font-size: 2.1em;
+    font-size: 1.9em;
   }
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 784px) {
   .herooo .caption .aprende {
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
 }
 .herooo .caption .on {
@@ -417,32 +384,27 @@ html {
 .herooo .caption .io {
   display: flex;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.2em;
   margin-top: -0.15em;
 }
 @media only screen and (min-width: 300px) {
   .herooo .caption .io {
-    font-size: 2.2em;
+    font-size: 2.5em;
   }
 }
 @media only screen and (min-width: 370px) {
   .herooo .caption .io {
-    font-size: 2.9em;
+    font-size: 2.8em;
   }
 }
 @media only screen and (min-width: 500px) {
   .herooo .caption .io {
-    font-size: 3.3em;
+    font-size: 3.2em;
   }
 }
-@media only screen and (min-width: 642px) {
+@media only screen and (min-width: 784px) {
   .herooo .caption .io {
-    font-size: 3.8em;
-  }
-}
-@media only screen and (min-width: 700px) {
-  .herooo .caption .io {
-    font-size: 4.2em;
+    font-size: 3.6em;
   }
 }
 .herooo .caption .ingles {
@@ -466,42 +428,46 @@ html {
 }
 .herooo .hero__info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: 0.6em;
-  font-weight: 100;
+  font-size: 0.55em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #ffffff;
   width: 100%;
-  margin-top: -1em;
+  margin-top: 0.5em;
   text-transform: uppercase;
-}
-@media only screen and (min-width: 300px) {
-  .herooo .hero__info {
-    font-size: 0.5em;
-    max-width: 37em;
-  }
 }
 @media only screen and (min-width: 500px) {
   .herooo .hero__info {
-    font-size: 0.7em;
-    max-width: 90em;
     flex-direction: row;
   }
 }
-@media only screen and (min-width: 642px) {
-  .herooo .hero__info {
-    font-size: 0.7em;
-    max-width: 90em;
+.herooo .hero__info .hero__info-a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+@media only screen and (min-width: 500px) {
+  .herooo .hero__info .hero__info-a {
+    width: 50%;
+    justify-content: flex-end;
   }
 }
-@media only screen and (min-width: 700px) {
-  .herooo .hero__info {
-    font-size: 0.6em;
-    width: 100%;
-    margin-top: 0.6em;
+.herooo .hero__info .hero__info-b {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+@media only screen and (min-width: 500px) {
+  .herooo .hero__info .hero__info-b {
+    width: 50%;
+    justify-content: flex-start;
   }
 }
 .herooo .hero__info h2 {
@@ -510,21 +476,18 @@ html {
   justify-content: center;
   padding: 0.6em;
   text-align: center;
-  margin: 0.3em 0.5em;
+  margin: 0.2em 0.3em;
   width: 100%;
-  max-width: 10em;
   height: 5em;
+  min-width: 8.5em;
+  max-width: 11em;
   text-shadow: 1px 1px 3px black;
 }
 @media only screen and (min-width: 500px) {
   .herooo .hero__info h2 {
-    height: 8em;
-  }
-}
-@media only screen and (min-width: 700px) {
-  .herooo .hero__info h2 {
+    margin: 0em 0.2em;
     height: 6em;
-    max-width: 13em;
+    max-width: 15em;
   }
 }
 .herooo .hero__info .uno {
@@ -545,8 +508,8 @@ html {
 }
 .herooo .hero-btn {
   text-transform: uppercase;
-  background: rgb(6, 3, 58);
-  background: linear-gradient(90deg, rgb(6, 3, 58) 0%, rgb(170, 5, 123) 54%, rgb(244, 1, 219) 100%);
+  background: rgb(224, 223, 252);
+  background: linear-gradient(90deg, rgb(130, 59, 164) 0%, rgb(34, 146, 222) 54%, rgb(0, 113, 189) 100%);
   box-shadow: 9px 6px 11px 6px rgba(0, 0, 0, 0.66);
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -561,41 +524,26 @@ html {
 }
 @media only screen and (min-width: 300px) {
   .herooo .hero-btn {
-    font-size: 1em;
-    padding: 1em 1.6em;
-    margin-top: 0.5em;
-  }
-}
-@media only screen and (min-width: 370px) {
-  .herooo .hero-btn {
-    font-size: 1.2em;
-    padding: 1em 1.8em;
+    font-size: 1.3em;
+    padding: 0.8em 2.5em;
+    margin-top: 0.8em;
   }
 }
 @media only screen and (min-width: 500px) {
   .herooo .hero-btn {
     font-size: 1.2em;
-    max-width: 90em;
-    flex-direction: row;
   }
 }
-@media only screen and (min-width: 642px) {
-  .herooo .hero-btn {
-    font-size: 1.5em;
-    padding: 1em 2.4em;
-    margin-top: -0.1em;
-  }
-}
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 784px) {
   .herooo .hero-btn {
     font-size: 1.4em;
-    padding: 1em 2.4em;
-    margin-top: 0.4em;
+    padding: 0.8em 2.5em;
+    margin-top: 1em;
   }
 }
 .herooo .hero-btn:hover {
   background: rgb(247, 196, 250);
-  background: linear-gradient(90deg, rgb(247, 196, 250) 4%, rgb(232, 123, 212) 42%, rgb(243, 41, 225) 100%);
+  background-color: rgb(255, 97, 40);
   color: rgb(252, 252, 252);
   box-shadow: 11px 4px 15px 5px rgba(0, 0, 0, 0.95);
 }
@@ -738,8 +686,7 @@ html {
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  background-color: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgb(0, 0, 0) 1%, rgb(58, 56, 56) 19%, rgb(7, 7, 6) 56%, rgb(36, 36, 36) 95%);
+  background-color: rgb(80, 30, 69);
 }
 .quien .quien__title {
   display: flex;
@@ -754,7 +701,7 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
 }
 @media only screen and (min-width: 700px) {
@@ -771,21 +718,42 @@ html {
   padding: 0.7em 0.5em;
 }
 .quien .quien__info p {
-  width: 50%;
+  background-color: rgba(0, 0, 0, 0.578);
+  width: 100%;
   text-align: center;
   flex-direction: column;
   color: white;
   padding-right: 0.8em;
-  font-size: 1em;
+  font-size: 0.9em;
+  text-shadow: 1px 1px 1px black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.quien .quien__info p .ingles {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+@media only screen and (min-width: 300px) {
+  .quien .quien__info p {
+    font-size: 1.2em;
+    padding: 1em 0.2em 1em 0.1em;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .quien .quien__info p {
+    font-size: 1.3em;
+    padding: 0.5em 0.3em 0.5em 0.1em;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .quien .quien__info p {
+    font-size: 1.4em;
+    padding: 2em 0.5em 2em 0.5em;
+  }
 }
 @media only screen and (min-width: 700px) {
   .quien .quien__info p {
-    font-size: 1.5em;
-    min-width: 22em;
-    max-width: 22em;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    font-size: 1.6em;
+    max-width: 25em;
+    padding: 0.8em 2em 1em 1.5em;
   }
 }
 .quien .quien__info p .ingles {
@@ -804,58 +772,81 @@ html {
 .quien .quien__info .infoto {
   display: flex;
   width: 50%;
-  height: 18em;
+  height: 20em;
   background-image: url("../img/i5.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+@media only screen and (min-width: 300px) {
+  .quien .quien__info .infoto {
+    background-position: -10em 5em;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .quien .quien__info .infoto {
+    background-position: -7em 1em;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .quien .quien__info .infoto {
+    background-position: -2em 5em;
+  }
+}
 @media only screen and (min-width: 700px) {
   .quien .quien__info .infoto {
     height: 25em;
-    width: 100%;
+    width: 50%;
     background-position: 8em 4em;
   }
 }
-.quien .ofrecemos__title {
+
+.queofrecemos {
   display: flex;
   width: 100%;
-  margin-top: 0.2em;
-  background-color: rgb(241, 136, 228);
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(5, 4, 4);
+}
+.queofrecemos .ofrecemos__title {
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+  background-color: rgb(240, 112, 225);
   padding: 0.5em;
   justify-content: center;
 }
-.quien .ofrecemos__title h2 {
+.queofrecemos .ofrecemos__title h2 {
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: 700;
   text-align: center;
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__title h2 {
+  .queofrecemos .ofrecemos__title h2 {
     font-size: 2em;
   }
 }
-.quien .ofrecemos__container {
+.queofrecemos .ofrecemos__container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   flex-grow: 1;
   width: 95%;
-  margin-top: 0.2em;
+  margin-top: 0.5em;
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container {
+  .queofrecemos .ofrecemos__container {
     margin-top: 1em;
     max-width: 70em;
   }
 }
-.quien .ofrecemos__container .ofrecemos {
+.queofrecemos .ofrecemos__container .ofrecemos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -864,7 +855,7 @@ html {
   padding: 0.2em;
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container .ofrecemos {
+  .queofrecemos .ofrecemos__container .ofrecemos {
     max-width: 17em;
     flex-direction: column;
     padding: 0.7em;
@@ -872,13 +863,13 @@ html {
     max-height: 14em;
   }
 }
-.quien .ofrecemos__container .ofrecemos .cont {
+.queofrecemos .ofrecemos__container .ofrecemos .cont {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.quien .ofrecemos__container .ofrecemos .cont h2 {
+.queofrecemos .ofrecemos__container .ofrecemos .cont h2 {
   text-transform: uppercase;
   z-index: 2;
   text-align: center;
@@ -887,7 +878,7 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container .ofrecemos .cont h2 {
+  .queofrecemos .ofrecemos__container .ofrecemos .cont h2 {
     font-size: 2.2em;
     position: relative;
     top: 3.3em;
@@ -896,25 +887,25 @@ html {
     transition: font-size 0.8s, top 0.8s;
   }
 }
-.quien .ofrecemos__container .ofrecemos .cont .material-icons {
+.queofrecemos .ofrecemos__container .ofrecemos .cont .material-icons {
   font-size: 5em;
   justify-self: center;
   color: rgb(0, 0, 0);
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container .ofrecemos .cont .material-icons {
+  .queofrecemos .ofrecemos__container .ofrecemos .cont .material-icons {
     position: relative;
     font-size: 11em;
     color: rgba(23, 23, 23, 0.49);
     transition: font-size 0.8s;
   }
 }
-.quien .ofrecemos__container .ofrecemos p {
+.queofrecemos .ofrecemos__container .ofrecemos p {
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container .ofrecemos p {
+  .queofrecemos .ofrecemos__container .ofrecemos p {
     font-size: 1.2em;
     position: relative;
     bottom: -6em;
@@ -922,48 +913,48 @@ html {
   }
 }
 @media only screen and (min-width: 700px) {
-  .quien .ofrecemos__container .ofrecemos:hover .cont h2 {
+  .queofrecemos .ofrecemos__container .ofrecemos:hover .cont h2 {
     font-size: 1.5em;
     color: rgb(252, 248, 248);
     text-shadow: 1px 1px 2px black;
     top: 0;
     transition: font-size 0.8s, top 0.8s;
   }
-  .quien .ofrecemos__container .ofrecemos:hover .cont .material-icons {
+  .queofrecemos .ofrecemos__container .ofrecemos:hover .cont .material-icons {
     position: relative;
     font-size: 6em;
     color: black;
     transition: font-size 0.8s;
   }
-  .quien .ofrecemos__container .ofrecemos:hover p {
+  .queofrecemos .ofrecemos__container .ofrecemos:hover p {
     bottom: 0;
     color: black;
     font-weight: 400;
     transition: bottom 0.6s, color 1.8s;
   }
 }
-.quien .todos {
+.queofrecemos .todos {
   background-color: yellow;
 }
-.quien .presencial {
+.queofrecemos .presencial {
   background-color: rgb(255, 153, 0);
 }
-.quien .domicilio {
+.queofrecemos .domicilio {
   background-color: rgb(255, 51, 0);
 }
-.quien .virtual {
+.queofrecemos .virtual {
   background-color: rgb(0, 255, 98);
 }
-.quien .curso {
+.queofrecemos .curso {
   background-color: rgb(0, 255, 238);
 }
-.quien .apoyo {
+.queofrecemos .apoyo {
   background-color: rgb(0, 123, 255);
 }
-.quien .examen {
+.queofrecemos .examen {
   background-color: rgb(238, 0, 255);
 }
-.quien .conversacion {
+.queofrecemos .conversacion {
   background-color: rgb(255, 0, 102);
 }
 
@@ -1001,7 +992,7 @@ html {
   background-color: rgba(255, 128, 0, 0.6);
   padding: 0.2em;
   text-shadow: 2px 2px 2px black;
-  font-size: 1.6em;
+  font-size: 1.8em;
   box-shadow: 5px 5px 20px black;
 }
 @media only screen and (min-width: 700px) {
@@ -1208,13 +1199,13 @@ html {
   background-color: rgb(139, 20, 80);
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.8em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0.2em;
 }
 @media only screen and (min-width: 300px) {
   .contactocont .pediclase h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 @media only screen and (min-width: 500px) {
@@ -1376,13 +1367,13 @@ html {
   background-color: rgba(93, 99, 219, 0.833);
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.8em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0.2em;
 }
 @media only screen and (min-width: 300px) {
   .contactocont .map .map_title {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 @media only screen and (min-width: 500px) {

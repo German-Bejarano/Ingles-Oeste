@@ -3,6 +3,8 @@ const header= document.querySelector(".header");
 const headerHeight= header.offsetTop;
 const nav= document.querySelector(".nav");
 /* ***** ****** ****** ***** ***** ***** */
+console.log(window.innerWidth)
+console.log(window.innerHeight)
 
 /* ***** ****** ****** ADD/REMOVE CLASSNAME METHODS ***** ***** ***** */
 const addClass= (x,y) => x.classList.add(y);

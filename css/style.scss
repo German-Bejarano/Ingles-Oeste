@@ -317,62 +317,27 @@
         background-attachment: fixed;
         background-size: cover;
         //height: var(--screenY); 
-        height: 30em ;
+        height: 34em ;
 
-        @media only screen and (min-width: 300px) {
-            height: 36em;
-        }
         
         .caption{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            //overflow: hidden;
             width: 100%;
-            // max-width: 25em;
             height: auto;
             padding: .5em .2em;
             z-index: 1;                        
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            //background-color: rgba(0, 0, 0, 0.443);
-            //background-color: black;
             text-align: center;
             font-size: 1.1em;
-            margin-top: 2.8em;
-
-            @media only screen and (min-width: 300px) {
-                margin-top: -2em;
-                width: 100%;
-            }
-
-            @media only screen and (min-width: 370px) {
-                margin-top: 4em;
-                // max-width: 95%;
-            }
-            
-            @media only screen and (min-width: 500px) {
-                margin-top: 7em;           
-                padding: 0em;
-            }
+            margin-top: 3em;
 
             @media only screen and (min-width: 700px) {
                 margin-top: 5em;
-                max-width: 40em;
+
             }
-
-            // @media only screen and (min-width: 500px) {
-            //     font-size: 1.2em;
-            //     // padding: 1.5em 2em;
-            //     // margin-top: 2em;
-            // }
-
-            // @media only screen and (min-width: 700px) {
-            //     font-size: 1.3em;
-            //     max-width: 28em;
-            //     padding: 1.5em 1em;
-            //     margin-top: 2em;
-            // }
 
             h3{
                 font-size: .85em;
@@ -390,32 +355,22 @@
 
                 @media only screen and (min-width: 300px) {
                     font-size: .9em;
-                    padding: .8em .4em;
-    
+                    padding: .3em .8em;
+                    max-width: 28em ;
                 }
 
-                @media only screen and (min-width: 370px) {
-                    font-size: 1.1em;
-                    padding: .3em .8em;
-                    max-width: 25em;
-                }
+                @media only screen and (min-width: 350px) {
+                    font-size: 1em;
+                }   
 
                 @media only screen and (min-width: 500px) {
-                    font-size: 1.4em;
-                    max-width: 23em;
-                    margin-top: 0; 
+                    font-size: 1em;
                 }
 
-                @media only screen and (min-width: 642px) {
-                    font-size: 1.3em;
-                    max-width: 27em;
-                    margin-top: 0; 
-                }
-
-                @media only screen and (min-width: 700px) {
-                    font-size: 1.4em;
-                    font-weight: 300;
-                    max-width: 28em;
+                @media only screen and (min-width: 784px) {
+                    font-size: 1.2em;
+                    font-weight: 400;
+                    max-width: 30em;
                     padding: .7em;
                 }
             }
@@ -424,25 +379,25 @@
                 position: relative;
                 text-transform: uppercase;
                 //color:rgba(255, 255, 255, 0);
-                font-size: 1.3em;
+                font-size: 1.4em;
                 top: -9em;
                 transition: top 1s;
                 ///transition: color 2s;
 
                 @media only screen and (min-width: 300px) {
-                    font-size: 1.3em;
+                    font-size: 1.5em;
                 }
 
-                @media only screen and (min-width: 370px) {
-                    font-size: 1.9em;
+                @media only screen and (min-width: 350px) {
+                    font-size: 1.6em;
                 }
                 
                 @media only screen and (min-width: 500px) {
-                    font-size: 2.1em;
+                    font-size: 1.9em;
                 }
 
-                @media only screen and (min-width: 700px) {
-                    font-size: 2.2em;
+                @media only screen and (min-width: 784px) {
+                    font-size: 2.1em;
                 }
 
             }
@@ -456,27 +411,27 @@
             .io{
                 display: flex;
                 text-transform: uppercase;
-                font-size: 2em;
+                font-size: 2.2em;
                 margin-top: -.15em;    
                 
                 @media only screen and (min-width: 300px) {
-                    font-size: 2.2em;
+                    font-size: 2.5em;
                 }
 
                 @media only screen and (min-width: 370px) {
-                    font-size: 2.9em;
+                    font-size: 2.8em;
                 }
 
                 @media only screen and (min-width: 500px) {
-                    font-size: 3.3em;
+                    font-size: 3.2em;
                 }
 
-                @media only screen and (min-width: 642px) {
-                    font-size: 3.8em;
-                }
+                // @media only screen and (min-width: 642px) {
+                //     font-size: 3.8em;
+                // }
 
-                @media only screen and (min-width: 700px) {
-                    font-size: 4.2em;
+                @media only screen and (min-width: 784px) {
+                    font-size: 3.6em;
                 }
             }
             
@@ -514,51 +469,49 @@
 
         .hero__info{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            font-size: .6em;
-            font-weight: 100;
+            font-size: .55em;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             color:#ffffff;
             width: 100%;
-            //max-width: 100em;
-            margin-top: -1em;
+            margin-top: .5em;
             text-transform: uppercase;
-           // background-color: red;
+           // background-color: blue;
+          
+           @media only screen and (min-width: 500px) {
+               flex-direction: row;           
+           }
             
-
-            @media only screen and (min-width: 300px) {
-                font-size: .5em;
-                max-width: 37em;
-            }
-
-            @media only screen and (min-width: 500px) {
-                font-size: .6em;
-                max-width: 90em;
+           .hero__info-a{
+                display: flex;
+                justify-content: center;   
+                align-content: center;
                 flex-direction: row;
-            }
-
-            @media only screen and (min-width: 642px) {
-                font-size: .7em;
-                max-width: 90em;
-            }
-
-            @media only screen and (min-width: 700px) {
-                font-size: .6em;
                 width: 100%;
-                margin-top: .6em;
+                //background-color: red;
+
+                @media only screen and (min-width: 500px) {
+                      width: 50%;   
+                      justify-content: flex-end;    
+                }
+           }
+
+           .hero__info-b{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                //background-color: beige;
+
+                @media only screen and (min-width: 500px) {
+                        width: 50%; 
+                        justify-content: flex-start;    
+                }
             }
-
-            // @media only screen and (min-width: 820px) {
-            //     flex-direction: row;
-            //     font-size: .5em;
-            // }
-
-            // @media only screen and (min-width: 985px) {
-            //     font-size: .6em;
-            // }
 
             h2{
                 display: flex;
@@ -566,48 +519,60 @@
                 justify-content: center;
                 padding: 0.6em;
                 text-align: center;
-                margin: .3em .5em;
+                margin: .2em .3em;
                 width: 100%;
-                max-width: 10em;
-                height:5em;
+                height: 5em;
+                min-width: 8.5em;
+                max-width: 11em;
                 text-shadow: 1px 1px 3px black;
                 
                 @media only screen and (min-width: 500px) {
-                    height: 8em;
-                }
-
-                @media only screen and (min-width: 700px) {
-                    height: 6em;
-                    max-width: 13em;
-                }
+                    margin: 0em .2em;   
+                    height: 6em; 
+                    max-width: 15em;
             }
+             }
 
             .uno{
                 background-color: rgb(241, 61, 61);
+                //background-color: rgb(248 57 57);
+                //background-color: rgb(200, 62, 77);
+                //background-color: rgb(244 17 42);
                 box-shadow: 5px 15px 40px rgb(241, 61, 61);
             }
 
             .dos{
                 background-color: rgb(71, 71, 250);
+                //background-color: rgb(5 103 241);
+                //background-color:rgb(77 64 224); 
+                //rgb(63, 136, 197);
                 box-shadow: 5px 15px 40px rgb(71, 71, 250);
             }
 
             .tres{
                 background-color: rgb(59, 179, 59);
+                //background-color: rgb(20 170 11);
+                //background-color: rgb(5 142 0);
+                //rgb(68, 175, 105);
                 box-shadow: 5px 15px 40px rgb(59, 179, 59);
             }
 
             .cuatro{
                 background-color: rgb(230, 135, 20);
+                //background-color: rgb(226 117 32);
+                //background-color: rgb(232, 153, 141);
                 box-shadow: 5px 15px 40px rgb(230, 135, 20);
             }
         }
         
         .hero-btn{
             text-transform: uppercase;
-            background: rgb(6,3,58);
-            background: linear-gradient(90deg, rgba(6,3,58,1) 0%, rgba(170,5,123,1) 54%, rgba(244,1,219,1) 100%);
-            -webkit-box-shadow: 9px 6px 11px 6px rgba(0,0,0,0.66); 
+            background: rgb(224, 223, 252);
+            //background: linear-gradient(90deg, rgba(6,3,58,1) 0%, rgba(170,5,123,1) 54%, rgba(244,1,219,1) 100%);
+            background: linear-gradient(90deg, rgb(130 59 164) 0%, rgb(34 146 222) 54%, rgb(0 113 189) 100%);
+            // background-color:rgb(255, 109, 40); 
+            //background-color: rgb(0 113 189);
+           -webkit-box-shadow: 9px 6px 11px 6px rgba(0,0,0,0.66); 
             box-shadow: 9px 6px 11px 6px rgba(0,0,0,0.66);
             color: white;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -623,38 +588,37 @@
             //font-size: clamp(1.2em, 3vh, 1.6vw);
             
             @media only screen and (min-width: 300px) {
-                font-size: 1em;
-                padding: 1em 1.6em;
-                margin-top: .5em;
+                font-size: 1.3em;
+                padding: .8em 2.5em;
+                margin-top: .8em;
             }
 
-            @media only screen and (min-width: 370px) {
-                font-size: 1.2em;
-                padding: 1em 1.8em;
-            }
+            // @media only screen and (min-width: 370px) {
+            //     font-size: 1.2em;
+            //     padding: 1em 1.8em;
+            // }
             
             @media only screen and (min-width: 500px) {
                 font-size: 1.2em;
-                max-width: 90em;
-                flex-direction: row;
             }
 
-            @media only screen and (min-width: 642px) {
-                font-size: 1.5em;
-                padding: 1em 2.4em;
-                margin-top: -.1em;
-            }
+            // @media only screen and (min-width: 642px) {
+            //     font-size: 1.5em;
+            //     padding: 1em 2.4em;
+            //     margin-top: -.1em;
+            // }
 
-            @media only screen and (min-width: 700px) {
+            @media only screen and (min-width: 784px) {
                 font-size: 1.4em;
-                padding: 1em 2.4em;
-                margin-top: .4em;
+                padding: .8em 2.5em;
+                margin-top: 1em;
             }
         }
         
         .hero-btn:hover {
             background: rgb(247,196,250);
-            background: linear-gradient(90deg, rgba(247,196,250,1) 4%, rgba(232,123,212,1) 42%, rgba(243,41,225,1) 100%);
+            //background: linear-gradient(90deg, rgba(247,196,250,1) 4%, rgba(232,123,212,1) 42%, rgba(243,41,225,1) 100%);
+            background-color: rgb(255, 97, 40);
             color: rgb(252, 252, 252);
             -webkit-box-shadow: 11px 4px 15px 5px rgba(0,0,0,0.95); 
             box-shadow: 11px 4px 15px 5px rgba(0,0,0,0.95);                            
@@ -806,14 +770,8 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        // background-image: url("../img/i5.jpg"); 
-        // background-position: center center;
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
-        //background-size: cover;
-        background-color: rgb(0, 0, 0);
-        background: radial-gradient(circle, rgba(0,0,0,1) 1%, rgba(58,56,56,1) 19%, rgba(7,7,6,1) 56%, rgba(36,36,36,1) 95%);
-        //height: auto;
+        background-color: rgb(80, 30, 69);
+        //background: radial-gradient(circle, rgba(0,0,0,1) 1%, rgba(58,56,56,1) 19%, rgba(7,7,6,1) 56%, rgba(36,36,36,1) 95%);
         
         .quien__title{
             display: flex;
@@ -828,7 +786,7 @@
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 font-weight: 700;
                 color: white;
-                font-size: 1.5em;
+                font-size: 1.8em;
                 text-align: center;
 
                 @media only screen and (min-width: 700px) {
@@ -850,21 +808,43 @@
             
             p{
                 
-                width: 50%;
+                background-color: rgba(0, 0, 0, 0.578);
+                width: 100%;
+                //height: 20em;
                 text-align: center;
                 flex-direction: column;
                 color:white;
                 //text-align: center;
                 padding-right: .8em;
-                font-size: 1em;
+                font-size: .9em;
+                text-shadow: 1px 1px 1px black;
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+                .ingles{
+                    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+                }
+
+                @media only screen and (min-width: 300px) {
+                    font-size: 1.2em;
+                    padding: 1em .2em 1em .1em;
+                    
+                }
+
+                @media only screen and (min-width: 400px) {
+                    font-size: 1.3em;
+                    padding: .5em .3em .5em .1em; 
+                }
+
+                @media only screen and (min-width: 500px) {
+                    font-size: 1.4em;
+                    padding: 2em .5em 2em .5em; 
+                }
+
                 @media only screen and (min-width: 700px) {
-                    font-size: 1.5em;
-                    min-width: 22em;
-                    max-width: 22em;
-                    padding-bottom: .5em;
-                    padding-top: .5em;
+                    font-size: 1.6em;
+                    //min-width: 22em;
+                    max-width: 25em;
+                    padding: .8em 2em 1em 1.5em;
                 }
 
                 .ingles{
@@ -883,7 +863,8 @@
             .infoto{
                 display: flex;
                 width: 50%;
-                height: 18em;
+                //margin-top: 1em;
+                height: 20em;
                 background-image: url("../img/i5.jpg"); 
                 //background-position: -9em 6em;
                 background-position: center center;
@@ -891,19 +872,48 @@
                 background-attachment: fixed;
                 background-size: cover;
 
+                @media only screen and (min-width: 300px) {
+                   // height: 23em;
+                   // width: 60%;
+                    background-position: -10em 5em;
+                }
+
+                @media only screen and (min-width: 400px) {
+                    //height: 23em;
+                   // width: 60%;
+                    background-position: -7em 1em;
+                }
+                
+                @media only screen and (min-width: 500px) {
+                    //height: 22em;
+                    //width: 50%;
+                    background-position: -2em 5em;
+                }
+
                 @media only screen and (min-width: 700px) {
                     height: 25em;
-                    width: 100%;
+                    width: 50%;
                     background-position: 8em 4em;
                 }
             }
         }
         
+        
+    }
+    
+    
+    .queofrecemos{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(5, 4, 4);
+        
         .ofrecemos__title{
             display: flex;
             width: 100%;
-            margin-top: .2em;
-            background-color: rgb(241, 136, 228);
+            margin-top: 1em;
+            background-color: rgb(240, 112, 225);
             padding: .5em;
             justify-content: center;
 
@@ -912,7 +922,8 @@
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 font-weight: 700;
                 color: white;
-                font-size: 1.5em;
+                font-size: 1.8em;
+                font-weight: 700;
                 text-align: center;
 
                 @media only screen and (min-width: 700px) {
@@ -924,11 +935,10 @@
         .ofrecemos__container{
             display:flex;
             flex-wrap: wrap;
-            align-items: center;
             justify-content: center;
             flex-grow: 1;
             width: 95%;
-            margin-top: .2em;
+            margin-top: .5em;
             margin-bottom: 2em;
 
             @media only screen and (min-width: 700px) {
@@ -1086,8 +1096,7 @@
             background-color: rgb(255, 0, 102);
         }
     }
-    
-    
+
     @media only screen and (min-width: 300px) {
         
     }
@@ -1130,7 +1139,7 @@
             background-color: rgb(255 128 0 / 60%);
             padding: .2em;
             text-shadow: 2px 2px 2px black;
-            font-size: 1.6em;
+            font-size: 1.8em;
             box-shadow: 5px 5px 20px black;
 
             @media only screen and (min-width: 700px) {
@@ -1378,12 +1387,12 @@
                 background-color: rgb(139, 20, 80);
                 color: rgb(255, 255, 255);
                 text-transform: uppercase;
-                font-size: 1.3em;
+                font-size: 1.8em;
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 padding: .2em;
 
                 @media only screen and (min-width: 300px) {
-                    font-size: 1.5em;
+                    font-size: 1.8em;
                 }
                 
                 @media only screen and (min-width: 500px) {
@@ -1563,12 +1572,12 @@
                 background-color: rgba(93, 99, 219, 0.833);
                 color: rgb(255, 255, 255);
                 text-transform: uppercase;
-                font-size: 1.3em;
+                font-size: 1.8em;
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 padding: .2em;
 
                 @media only screen and (min-width: 300px) {
-                    font-size: 1.5em;
+                    font-size: 1.8em;
                 }
                 
                 @media only screen and (min-width: 500px) {
