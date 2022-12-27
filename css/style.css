@@ -843,7 +843,7 @@ html {
 @media only screen and (min-width: 700px) {
   .queofrecemos .ofrecemos__container {
     margin-top: 1em;
-    max-width: 70em;
+    width: 90%;
   }
 }
 .queofrecemos .ofrecemos__container .ofrecemos {
@@ -856,11 +856,10 @@ html {
 }
 @media only screen and (min-width: 700px) {
   .queofrecemos .ofrecemos__container .ofrecemos {
-    max-width: 17em;
+    width: 17em;
     flex-direction: column;
     padding: 0.7em;
-    min-height: 14em;
-    max-height: 14em;
+    height: 15em;
   }
 }
 .queofrecemos .ofrecemos__container .ofrecemos .cont {
@@ -912,6 +911,46 @@ html {
     color: rgba(0, 0, 0, 0);
   }
 }
+.queofrecemos .ofrecemos__container .todos {
+  background-color: yellow;
+}
+.queofrecemos .ofrecemos__container .presencial {
+  background-color: rgb(255, 153, 0);
+}
+.queofrecemos .ofrecemos__container .domicilio {
+  background-color: rgb(255, 51, 0);
+}
+.queofrecemos .ofrecemos__container .virtual {
+  background-color: rgb(0, 255, 98);
+}
+.queofrecemos .ofrecemos__container .curso {
+  background-color: rgb(0, 255, 238);
+}
+@media only screen and (min-width: 700px) {
+  .queofrecemos .ofrecemos__container .curso p {
+    font-size: 1em;
+  }
+}
+.queofrecemos .ofrecemos__container .apoyo {
+  background-color: rgb(0, 123, 255);
+}
+@media only screen and (min-width: 700px) {
+  .queofrecemos .ofrecemos__container .apoyo .cont {
+    margin-top: -2em;
+  }
+}
+.queofrecemos .ofrecemos__container .examen {
+  background-color: rgb(238, 0, 255);
+}
+@media only screen and (min-width: 700px) {
+  .queofrecemos .ofrecemos__container .examen p {
+    font-size: 1.1em;
+    margin-top: -0.8em;
+  }
+}
+.queofrecemos .ofrecemos__container .conversacion {
+  background-color: rgb(255, 0, 102);
+}
 @media only screen and (min-width: 700px) {
   .queofrecemos .ofrecemos__container .ofrecemos:hover .cont h2 {
     font-size: 1.5em;
@@ -932,30 +971,6 @@ html {
     font-weight: 400;
     transition: bottom 0.6s, color 1.8s;
   }
-}
-.queofrecemos .todos {
-  background-color: yellow;
-}
-.queofrecemos .presencial {
-  background-color: rgb(255, 153, 0);
-}
-.queofrecemos .domicilio {
-  background-color: rgb(255, 51, 0);
-}
-.queofrecemos .virtual {
-  background-color: rgb(0, 255, 98);
-}
-.queofrecemos .curso {
-  background-color: rgb(0, 255, 238);
-}
-.queofrecemos .apoyo {
-  background-color: rgb(0, 123, 255);
-}
-.queofrecemos .examen {
-  background-color: rgb(238, 0, 255);
-}
-.queofrecemos .conversacion {
-  background-color: rgb(255, 0, 102);
 }
 
 /*#endregion*/

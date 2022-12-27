@@ -943,7 +943,8 @@
 
             @media only screen and (min-width: 700px) {
                 margin-top: 1em;
-                max-width: 70em;
+                //max-width: 70em;
+                width: 90%;
             }
 
             .ofrecemos{
@@ -959,11 +960,13 @@
                 padding: .2em;
 
                 @media only screen and (min-width: 700px) {
-                    max-width: 17em;
+                    //max-width: 17em;
+                    width: 17em;
                     flex-direction: column;
                     padding: .7em;
-                    min-height: 14em;
-                    max-height: 14em;
+                    height: 15em;
+                    //min-height: 14em;
+                    //max-height: 15em;
                     
                     
                 }
@@ -1031,6 +1034,57 @@
                 
             }
             
+            .todos{
+                background-color: yellow;
+            }
+    
+            .presencial{
+                background-color: rgb(255, 153, 0);
+            }
+            
+            .domicilio{
+                background-color: rgb(255, 51, 0);
+            }
+    
+            .virtual{
+                background-color: rgb(0, 255, 98);
+            }
+    
+            .curso{
+                background-color: rgb(0, 255, 238);
+
+                @media only screen and (min-width: 700px) {
+                    p{
+                        font-size: 1em;
+                    }
+                }
+            }
+    
+            .apoyo{
+                background-color: rgb(0, 123, 255);
+
+                @media only screen and (min-width: 700px) {
+                    .cont{
+                        margin-top: -2em;
+                    }
+                }
+            }
+    
+            .examen{
+                background-color: rgb(238, 0, 255);
+                
+                @media only screen and (min-width: 700px) {
+                    p{
+                        font-size: 1.1em;
+                        margin-top: -.8em;
+                    }
+                }
+            }
+    
+            .conversacion{
+                background-color: rgb(255, 0, 102);
+            }
+
             @media only screen and (min-width: 700px) {
                 .ofrecemos:hover{
     
@@ -1058,43 +1112,13 @@
                         color: black;
                         font-weight: 400;
                         transition: bottom .6s, color 1.8s;
-                    }   
+                    } 
+                    
                 }
              }
 
         }
-        
-        .todos{
-            background-color: yellow;
-        }
 
-        .presencial{
-            background-color: rgb(255, 153, 0);
-        }
-        
-        .domicilio{
-            background-color: rgb(255, 51, 0);
-        }
-
-        .virtual{
-            background-color: rgb(0, 255, 98);
-        }
-
-        .curso{
-            background-color: rgb(0, 255, 238);
-        }
-
-        .apoyo{
-            background-color: rgb(0, 123, 255);
-        }
-
-        .examen{
-            background-color: rgb(238, 0, 255);
-        }
-
-        .conversacion{
-            background-color: rgb(255, 0, 102);
-        }
     }
 
     @media only screen and (min-width: 300px) {
